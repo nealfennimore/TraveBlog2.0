@@ -1,0 +1,21 @@
+{
+  "name": "TravelBlog",
+  "version": "0.0.0",
+  "homepage": "https://github.com/nealfennimore/TravelBlog2.0",
+  "authors": [
+    "nealfennimore <hi@neal.codes>"
+  ],
+  "description": "Travel Blog",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ]
+}
