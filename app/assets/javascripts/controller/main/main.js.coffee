@@ -1,0 +1,1 @@
+angular.module('TravelBlog', ['mm.foundation']);
