@@ -13,6 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require underscore
-//= require bootstrap/dist/js/bootstrap
 //= require angular
+//= require foundation
 //= require_tree .
+
+$(document).foundation();
