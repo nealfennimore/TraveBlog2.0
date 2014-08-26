@@ -14,7 +14,4 @@
 //= require jquery_ujs
 //= require underscore
 //= require angular
-//= require foundation
 //= require_tree .
-
-$(function(){ $(document).foundation(); });
