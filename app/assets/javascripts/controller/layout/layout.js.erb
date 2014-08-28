@@ -1,10 +1,13 @@
+//= depend_on_asset "layout.html"
+
 (function() {
   
   angular.module('travelBlog-layout', [])
   .directive('topMenu', [function () {
+
     return {
       restrict: 'E',
-      templateUrl: '/assets/javascripts/controller/layout/layout.html',
+      templateUrl: '<%= asset_path('layout.html') %>',
       controller: function(){
 
       },
