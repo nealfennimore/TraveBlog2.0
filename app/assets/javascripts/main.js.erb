@@ -8,13 +8,12 @@
     'TravelBlog.filters',
     'TravelBlog.services',
     'TravelBlog.directives',
-    'TravelBlog.controllers',
-    'google-maps'
+    'TravelBlog.controllers'
   ]).
 
   config(['$routeProvider', function($routeProvider) {
-    $routeProvider.when('/', {templateUrl: '<%= asset_path("layout.html") %>', controller: 'IndexCtrl'});
-    $routeProvider.otherwise({redirectTo: '/'});
+    // $routeProvider.when('/', {templateUrl: '<%= asset_path("layout.html") %>', controller: 'IndexCtrl'});
+    // $routeProvider.otherwise({redirectTo: '/'});
   }]);
 
 })();
