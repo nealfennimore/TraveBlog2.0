@@ -1,6 +1,8 @@
-(function() {
-  this.IndexCtrl = function($scope) {
-    $scope.title = "My blog";
-  };
+angular.module('index', [])
+  .controller('IndexCtrl', ['$scope', '$http', function($scope, $http) {
 
-}).call(this);
+    $http.jsonp('http://filltext.com/?rows=10&fname={firstName}&lname={lastName}&tel={phone}&callback=JSON_CALLBACK').success(function(data){
+      $scope.people = data;
+    })
+    
+  }])
