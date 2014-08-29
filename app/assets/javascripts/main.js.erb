@@ -9,6 +9,11 @@
     'TravelBlog.services',
     'TravelBlog.directives',
     'TravelBlog.controllers'
-  ]);
+  ]).
+
+  config(['$routeProvider', function($routeProvider) {
+    $routeProvider.when('/', {templateUrl: '<%= asset_path("layout.html") %>', controller: 'IndexCtrl'});
+    $routeProvider.otherwise({redirectTo: '/'});
+  }]);
 
 })();
