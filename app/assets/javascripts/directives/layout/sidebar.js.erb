@@ -1,15 +1,14 @@
 //= depend_on_asset "layout.html"
   
-  angular.module('layout', [])
-  .directive('topMenu', [function () {
+  angular.module('sidebar', [])
+  .directive('sideBar', [function () {
 
     return {
       restrict: 'E',
       templateUrl: '<%= asset_path('layout.html') %>',
-      controller: function(){
-
+      link: function (scope, iElement, iAttrs) {
+        
       },
-      controllerAs: 'menu'
 
     };
   }]);
