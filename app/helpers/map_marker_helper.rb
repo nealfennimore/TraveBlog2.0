@@ -1,0 +1,2 @@
+module MapMarkerHelper
+end
