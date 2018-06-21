@@ -6,7 +6,7 @@ gem 'rails', '4.1.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 4.0.5'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -19,7 +19,7 @@ gem 'jquery-rails'
 
 gem 'foundation-rails'
 
-gem 'angular_rails_csrf'  
+gem 'angular_rails_csrf'  , '>= 1.0.1'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
@@ -30,7 +30,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 group :test, :development do
-  gem 'konacha'
+  gem 'konacha', '>= 3.2.4'
 end
 
 # Use ActiveModel has_secure_password
