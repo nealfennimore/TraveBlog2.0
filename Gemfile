@@ -30,7 +30,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 group :test, :development do
-  gem 'konacha'
+  gem 'konacha', '>= 3.2.4'
 end
 
 # Use ActiveModel has_secure_password
